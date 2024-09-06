@@ -6,7 +6,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        barlow: ['Barlow', 'sans-serif'],
+        sen: ['Sen', 'sans-serif'],
+      },
+    },
   },
   plugins: [
     require('daisyui'),

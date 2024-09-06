@@ -2,7 +2,7 @@
 
 const Footer = () => {
 	return (
-		<div>
+		<div className="py-80">
 			footer
 		</div>
 	);
