@@ -2,8 +2,8 @@
 
 const Footer = () => {
 	return (
-		<div className="py-80">
-			footer
+		<div className="">
+			footer fsdfsd
 		</div>
 	);
 };

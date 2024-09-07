@@ -89,18 +89,18 @@ const Banner = () => {
 				</div>
 
 				{/* search card */}
-				<div className="relative md:-mt-48 z-10">
+				<div className="relative hidden md:flex md:-mt-48 z-10">
 					<div className="bg-white shadow-lg p-7 w-[90%] mx-auto">
 						<div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4">
 							{/* Enter Keyword Input */}
 							<input
 								type="text"
 								placeholder="Enter Keyword..."
-								className="border  px-4 py-3 w-full"
+								className="border placeholder-[#495057]  px-4 py-3 w-full"
 							/>
 
 							{/* Property Types Dropdown */}
-							<select className="border  px-4 py-3 w-full">
+							<select className="border text-[#495057]  px-4 py-3 w-full">
 								<option>Property Types</option>
 								<option>House</option>
 								<option>Apartment</option>
@@ -111,11 +111,11 @@ const Banner = () => {
 							<input
 								type="text"
 								placeholder="Location"
-								className="border  px-4 py-3 w-full"
+								className="border placeholder-[#495057] px-4 py-3 w-full"
 							/>
 
 							{/* Price Dropdown */}
-							<select className="border  px-4 py-3 w-full">
+							<select className="border text-[#495057] px-4 py-3 w-full">
 								<option>Price</option>
 								<option>$100,000 - $200,000</option>
 								<option>$200,000 - $500,000</option>
@@ -123,12 +123,12 @@ const Banner = () => {
 							</select>
 
 							{/* Advanced Options Button */}
-							<button className="border  px-4 py-3 w-full text-center">
+							<button className="border text-[#495057] px-4 py-3 w-full text-center">
 								Advanced
 							</button>
 
 							{/* Search Button */}
-							<button className="bg-[#aa8453] text-white hover:bg-[#2e2314] px-9 py-4  w-full md:col-span-1">
+							<button className="bg-[#aa8453] text-white hover:bg-[#aa885c] px-9 py-4  w-full md:col-span-1">
 								Search
 							</button>
 						</div>
@@ -159,6 +159,53 @@ const Banner = () => {
 					))}
 				</div>
 			</div>
+
+			{/* this search card only for mobile device show */}
+			<div className="relative md:hidden md:-mt-48 z-10">
+					<div className="bg-white shadow-lg p-7 w-[90%] mx-auto">
+						<div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4">
+							{/* Enter Keyword Input */}
+							<input
+								type="text"
+								placeholder="Enter Keyword..."
+								className="border placeholder-[#495057]  px-4 py-3 w-full"
+							/>
+
+							{/* Property Types Dropdown */}
+							<select className="border text-[#495057]  px-4 py-3 w-full">
+								<option>Property Types</option>
+								<option>House</option>
+								<option>Apartment</option>
+								<option>Villa</option>
+							</select>
+
+							{/* Location Input */}
+							<input
+								type="text"
+								placeholder="Location"
+								className="border placeholder-[#495057] px-4 py-3 w-full"
+							/>
+
+							{/* Price Dropdown */}
+							<select className="border text-[#495057] px-4 py-3 w-full">
+								<option>Price</option>
+								<option>$100,000 - $200,000</option>
+								<option>$200,000 - $500,000</option>
+								<option>$500,000+</option>
+							</select>
+
+							{/* Advanced Options Button */}
+							<button className="border text-[#495057] px-4 py-3 w-full text-center">
+								Advanced
+							</button>
+
+							{/* Search Button */}
+							<button className="bg-[#aa8453] text-white hover:bg-[#aa885c] px-9 py-4  w-full md:col-span-1">
+								Search
+							</button>
+						</div>
+					</div>
+				</div>
 		</div>
 	);
 };
