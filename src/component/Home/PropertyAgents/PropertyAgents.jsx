@@ -11,6 +11,11 @@ const PropertyAgents = () => {
 					<Link to="/properties">View All Properties</Link>
 				</p>
 			</div>
+
+			{/* card desing start */}
+			<div>
+				
+			</div>
 		</div>
 	);
 };
