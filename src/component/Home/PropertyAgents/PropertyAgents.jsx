@@ -15,7 +15,7 @@ const PropertyAgents = () => {
 				</p>
 			</div>
 
-			{/* card desing start */}
+			{/*agent card desing start */}
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 				<div>
 					<img src={luann} alt="" />
@@ -48,6 +48,26 @@ const PropertyAgents = () => {
 						<p className="px-[6px] text-[14px] py-1 text-white bg-[#aa8453]">Score: 4.00</p>
 					</div>
 					<p className="font-barlow pt-1">At 1st April, 2012</p>
+				</div>
+			
+			</div>
+
+			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-12 space-y-8 md:space-y-4  mt-24 bg-[#222222]">
+				<div className="text-center">
+					<h1 className="text-[36px] font-bold text-[#aa8453] font-sen">360</h1>
+					<h3 className="text-white font-bold text-[21px]">Listed Property</h3>
+				</div>
+				<div className="text-center">
+					<h1 className="text-[36px] font-bold text-[#aa8453] font-sen">51</h1>
+					<h3 className="text-white font-bold text-[21px]">Mega Projects</h3>
+				</div>
+				<div className="text-center">
+					<h1 className="text-[36px] font-bold text-[#aa8453] font-sen">25</h1>
+					<h3 className="text-white font-bold text-[21px]">Awards Won</h3>
+				</div>
+				<div className="text-center">
+					<h1 className="text-[36px] font-bold text-[#aa8453] font-sen">2130</h1>
+					<h3 className="text-white font-bold text-[21px]">Happy Clients</h3>
 				</div>
 			
 			</div>
