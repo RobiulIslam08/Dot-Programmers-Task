@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
-
+import luann from "../../../assets/Home/1.jpg"
+import ronald from "../../../assets/Home/2.jpg"
+import riddle1 from "../../../assets/Home/3.jpg"
+import riddle2 from "../../../assets/Home/4.jpg"
 
 const PropertyAgents = () => {
 	return (
@@ -13,8 +16,40 @@ const PropertyAgents = () => {
 			</div>
 
 			{/* card desing start */}
-			<div>
-				
+			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+				<div>
+					<img src={luann} alt="" />
+					<div className="flex justify-between items-center pt-6">
+						<p className="text-[21px] font-sen">Luann McLawhorn</p>
+						<p className="px-[6px] text-[14px] py-1 text-white bg-[#aa8453]">Score: 4.50</p>
+					</div>
+					<p className="font-barlow pt-1">At 1st April, 2012</p>
+				</div>
+				<div>
+					<img src={ronald} alt="" />
+					<div className="flex justify-between items-center pt-6">
+						<p className="text-[21px] font-sen">Ronald Johnson</p>
+						<p className="px-[6px] text-[14px] py-1 text-white bg-[#aa8453]">Score: 5.00</p>
+					</div>
+					<p className="font-barlow pt-1">At 1st April, 2012</p>
+				</div>
+				<div>
+					<img src={riddle1} alt="" />
+					<div className="flex justify-between items-center pt-6">
+						<p className="text-[21px] font-sen">John M. Riddle</p>
+						<p className="px-[6px] text-[14px] py-1 text-white bg-[#aa8453]">Score: 5.00</p>
+					</div>
+					<p className="font-barlow pt-1">At 1st April, 2012</p>
+				</div>
+				<div>
+					<img src={riddle2} alt="" />
+					<div className="flex justify-between items-center pt-6">
+						<p className="text-[21px] font-sen">John M. Riddle</p>
+						<p className="px-[6px] text-[14px] py-1 text-white bg-[#aa8453]">Score: 4.00</p>
+					</div>
+					<p className="font-barlow pt-1">At 1st April, 2012</p>
+				</div>
+			
 			</div>
 		</div>
 	);
