@@ -46,7 +46,7 @@ const MissionAndAcieve = () => {
 
 			{/* achieve */}
 			<div className="flex lg:flex-row flex-col gap-1 lg:gap-8 pb-16 justify-between">
-				<div className="flex gap-5 items-center">
+				<div className="flex gap-5 items-center ">
 					<h1 className="text-[44px] text-[#aa8453] font-sen font-bold">$15.4M</h1>
 					<p className="text-[#6d7175]"> Owned from <br className="hidden md:flex"/>
 						Properties Transactions </p>
