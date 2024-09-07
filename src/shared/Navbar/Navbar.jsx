@@ -92,7 +92,7 @@ const Navbar = () => {
 
           {/* Offcanvas Top */}
           <div
-  className={`fixed top-[77px] md:top-[107px] left-0 max-h-full w-full bg-[#222222] text-white transition-all duration-500 ease-in-out ${isOffcanvasOpen ? "translate-y-0 h-full" : "-translate-y-full h-0"} overflow-auto`}
+  className={`fixed top-[50px] md:top-[107px] left-0 max-h-full w-full bg-[#222222] text-white transition-all duration-500 ease-in-out ${isOffcanvasOpen ? "translate-y-0 h-full" : "-translate-y-full h-0"} overflow-auto`}
   style={{ zIndex: 1000 }}
 >
   {/* Offcanvas body */}
