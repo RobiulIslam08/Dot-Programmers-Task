@@ -1,4 +1,5 @@
 import Banner from "../../component/Home/Banner/Banner";
+import ClientTestimonials from "../../component/Home/ClientTestimonials/ClientTestimonials";
 import MissionAndAcieve from "../../component/Home/MissionAndAcieve/MissionAndAcieve";
 import PropertyAgents from "../../component/Home/PropertyAgents/PropertyAgents";
 import PropertyCategories from "../../component/Home/PropertyCategories/PropertyCategories";
@@ -13,6 +14,7 @@ const Home = () => {
 		<RecentProperties></RecentProperties>
 		<PropertyCategories></PropertyCategories>
 		<PropertyAgents></PropertyAgents>
+		<ClientTestimonials></ClientTestimonials>
 		</div>
 	);
 };
