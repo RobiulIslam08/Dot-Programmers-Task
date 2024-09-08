@@ -1,5 +1,6 @@
 import Banner from "../../component/Home/Banner/Banner";
 import ClientTestimonials from "../../component/Home/ClientTestimonials/ClientTestimonials";
+import GoToTop from "../../component/Home/GoToTop/GoToTop";
 import MissionAndAcieve from "../../component/Home/MissionAndAcieve/MissionAndAcieve";
 import PopularProperty from "../../component/Home/PopularProperty/PopularProperty";
 import PropertyAgents from "../../component/Home/PropertyAgents/PropertyAgents";
@@ -19,6 +20,7 @@ const Home = () => {
 		<ClientTestimonials></ClientTestimonials>
 		<PopularProperty></PopularProperty>
 		<RecentPost></RecentPost>
+		<GoToTop></GoToTop>
 		</div>
 	);
 };
