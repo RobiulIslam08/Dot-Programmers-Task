@@ -30,8 +30,8 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={`transition duration-300 px-3 lg:px-16 ease-in-out ${isScrolled
-        ? 'bg-[#222222] text-white shadow-lg fixed top-0 left-0 w-full z-50 hidden lg:flex'
+      <div className={`transition duration-300 px-3 md:px-10 lg:px-16 ease-in-out ${isScrolled
+        ? 'bg-[#222222] text-white shadow-lg fixed top-0 left-0 w-full z-50 hidden lg:grid  '
         : 'fixed top-0 text-white left-0 w-full z-50'
         } ${!isScrolled ? 'bg-[#222222] lg:bg-transparent' : ''}`}>
         {/* First nav */}
@@ -94,7 +94,7 @@ const Navbar = () => {
             style={{ zIndex: 1000 }}
           >
             {/* Offcanvas body */}
-            <div className="p-4 overflow-y-auto ">
+            <div className="px-10 pt-5 overflow-y-auto ">
               <ul className="space-y-4">
                 <li className="hover:text-[#aa8453] transform transition duration-200 ease-out"><Link to="#">
                   <div className="flex justify-between">
