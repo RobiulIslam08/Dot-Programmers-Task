@@ -4,6 +4,7 @@ import MissionAndAcieve from "../../component/Home/MissionAndAcieve/MissionAndAc
 import PopularProperty from "../../component/Home/PopularProperty/PopularProperty";
 import PropertyAgents from "../../component/Home/PropertyAgents/PropertyAgents";
 import PropertyCategories from "../../component/Home/PropertyCategories/PropertyCategories";
+import RecentPost from "../../component/Home/RecentPost/RecentPost";
 import RecentProperties from "../../component/Home/RecentProperties/RecentProperties";
 
 
@@ -17,6 +18,7 @@ const Home = () => {
 		<PropertyAgents></PropertyAgents>
 		<ClientTestimonials></ClientTestimonials>
 		<PopularProperty></PopularProperty>
+		<RecentPost></RecentPost>
 		</div>
 	);
 };
