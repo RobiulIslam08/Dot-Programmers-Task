@@ -5,7 +5,7 @@ import postThree from "../../../assets/Home/post3.png"
 
 const RecentPost = () => {
 	return (
-		<div className="bg-[#f8f5f0] px-3 md:px-12 lg:px-16 pb-14 pt-20">
+		<div className="bg-[#f8f5f0] px-3 md:px-12 lg:px-16 pb-20 lg:pb-28 pt-20">
 			{/* heading */}
 			<div className="text-center px-4 w-full lg:w-[490px] xl:w-[640px] mx-auto">
 				<p className="text-lg font-barlow text-[#b28f62] pb-4">Our Recent Post</p>
