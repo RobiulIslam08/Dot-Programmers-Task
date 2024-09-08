@@ -40,7 +40,7 @@
 
 // export default GoToTop;
 import { useEffect, useState } from "react";
-import { FaArrowDown, FaLongArrowAltUp } from "react-icons/fa";
+import {  FaLongArrowAltUp } from "react-icons/fa";
 
 
 const GoToTop = () => {
@@ -71,10 +71,10 @@ const GoToTop = () => {
 		<div className="hidden xl:flex">
 			{isVisible && (
 				<div
-					className="text-[2.4rem] w-[30px] h-[90px] text-white bg-[#0000ff] shadow-md  fixed bottom-8 right-8 z-10 flex justify-center items-center cursor-pointer transition-colors duration-300 ease-in-out "
+					className=" w-[30px] h-[90px] text-white bg-[#0000ff] shadow-md  fixed bottom-4 right-12 z-10 flex justify-center items-center cursor-pointer transition-colors duration-300 ease-in-out "
 					onClick={goToBtn}
 				>
-					<p className="text-xs absolute text-center mt-6  font-bold">go top</p>
+					<p className="text-xs absolute text-center mt-6  font-semibold">go top</p>
 
 					<FaLongArrowAltUp className=" w-5 h-5 mb-9" />
 				</div>
