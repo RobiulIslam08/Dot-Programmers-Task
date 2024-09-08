@@ -30,10 +30,10 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={`transition duration-300  px-3 lg:px-16 ease-in-out ${isScrolled
-          ? 'bg-[#222222] text-white shadow-lg fixed top-0 left-0 w-full z-50'
-          : ' fixed top-0 text-white left-0 w-full z-50'
-        }`}>
+      <div className={`transition duration-300 px-3 lg:px-16 ease-in-out ${isScrolled
+        ? 'bg-[#222222] text-white shadow-lg fixed top-0 left-0 w-full z-50 hidden lg:flex'
+        : 'fixed top-0 text-white left-0 w-full z-50'
+        } ${!isScrolled ? 'bg-[#222222] lg:bg-transparent' : ''}`}>
         {/* First nav */}
 
         <nav
@@ -90,11 +90,11 @@ const Navbar = () => {
 
           {/* Offcanvas Top */}
           <div
-            className={`fixed top-[50px] md:top-[107px] left-0 max-h-full w-full bg-[#222222] text-white transition-all duration-500 ease-in-out ${isOffcanvasOpen ? "translate-y-0 h-full" : "-translate-y-full h-0"} overflow-auto`}
+            className={`fixed top-[50px] md:top-[100px] left-0 max-h-full w-full bg-[#222222] text-white transition-all duration-500 ease-in-out ${isOffcanvasOpen ? "translate-y-0 h-[330px]" : "-translate-y-full h-0 "} overflow-auto`}
             style={{ zIndex: 1000 }}
           >
             {/* Offcanvas body */}
-            <div className="p-4 overflow-y-auto h-full">
+            <div className="p-4 overflow-y-auto ">
               <ul className="space-y-4">
                 <li className="hover:text-[#aa8453] transform transition duration-200 ease-out"><Link to="#">
                   <div className="flex justify-between">
